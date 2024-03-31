@@ -3,18 +3,18 @@
 This project focused on analyzing a Portuguese bank's marketing campaign data to identify customers more likely to subscribe to term deposits. The objective was to enhance the bank's marketing strategies by predicting customer behavior, thereby improving profitability and customer engagement.
 
 Key Phases of the Project:
+```
+    1. Data Exploration and Preprocessing:
+      - Loaded the bank-additional-full.csv dataset and performed initial exploration to understand its structure, features, and target variable.
+      - Conducted data preprocessing, including handling missing values encoded as 'unknown', applying one-hot encoding to categorical variables, and scaling numerical features.
 
-1. Data Exploration and Preprocessing:
-  - Loaded the bank-additional-full.csv dataset and performed initial exploration to understand its structure, features, and target variable.
-  - Conducted data preprocessing, including handling missing values encoded as 'unknown', applying one-hot encoding to categorical variables, and scaling numerical features.
+    2. Exploratory Data Analysis (EDA):
+      - Performed EDA to uncover insights from the data, focusing on the distribution of the target variable and the relationship between features and term deposit subscriptions.
 
-2. Exploratory Data Analysis (EDA):
-  - Performed EDA to uncover insights from the data, focusing on the distribution of the target variable and the relationship between features and term deposit subscriptions.
-
-3. Model Preparation and Training:
-  - Prepared the data for modeling by splitting it into training and testing sets, ensuring stratification to maintain class proportions due to observed imbalance in the target variable.
-  - Trained a baseline Logistic Regression model, evaluating its performance in terms of accuracy, precision, recall, F1-score, and ROC-AUC.
-
+    3. Model Preparation and Training:
+      - Prepared the data for modeling by splitting it into training and testing sets, ensuring stratification to maintain class proportions due to observed imbalance in the target variable.
+      - Trained a baseline Logistic Regression model, evaluating its performance in terms of accuracy, precision, recall, F1-score, and ROC-AUC.
+```
 4. Addressing Class Imbalance:
   - Adjusted the Logistic Regression model to account for class imbalance by modifying class weights, which improved recall for the minority class but reduced precision due to an increase in false positives.
 
