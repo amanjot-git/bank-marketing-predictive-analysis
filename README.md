@@ -32,4 +32,6 @@ The objective was to enhance the bank's marketing strategies by predicting custo
 - Experiment with additional models and advanced techniques like Gradient Boosting or XGBoost.
 - Fine-tune models through hyperparameter optimization and explore strategies to address class imbalance more effectively.
 - Consider the practical deployment of the model, integrating predictive insights into the bank's marketing strategies to target potential subscribers more effectively.
+
+
 This project highlights the potential of machine learning to enhance decision-making in marketing strategies, with a focus on actionable insights and continuous improvement through model iteration and evaluation.
